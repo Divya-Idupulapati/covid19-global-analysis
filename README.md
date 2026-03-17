@@ -59,19 +59,6 @@ The Tableau dashboard visualizes:
 
 ---
 
-## Project Structure
-```
-covid19-global-analysis/
-│
-├── SQL_Covid19_FullProject.sql       # All SQL queries used for analysis
-├── CovidDeaths.xlsx                  # Raw deaths dataset
-├── CovidVaccinations.xlsx            # Raw vaccinations dataset
-├── Covid_TableauFullProject.twb      # Tableau workbook
-└── README.md
-```
-
----
-
 ## How to Run
 1. Import `CovidDeaths.xlsx` and `CovidVaccinations.xlsx` into MySQL
 2. Run `SQL_Covid19_FullProject.sql` to execute all queries
